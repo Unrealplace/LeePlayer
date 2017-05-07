@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99517F97F79858AB50D3B139 /* libPods-LeeTestPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1845B3107E3121ED95858EF3 /* libPods-LeeTestPlayer.a */; };
+		B690F0A51E5FB9FC0043070B /* LeeBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0A41E5FB9FC0043070B /* LeeBaseNavigationController.m */; };
+		B690F0A81E5FBA4F0043070B /* LeeBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0A71E5FBA4F0043070B /* LeeBaseTabBarController.m */; };
+		B690F0AB1E5FBAA50043070B /* LeeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0AA1E5FBAA50043070B /* LeeBaseViewController.m */; };
+		B690F0AE1E5FBABF0043070B /* LeeFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0AD1E5FBABF0043070B /* LeeFirstVC.m */; };
+		B690F0B11E5FBACB0043070B /* LeeSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0B01E5FBACB0043070B /* LeeSecondVC.m */; };
+		B690F0B41E5FBAEA0043070B /* LeeCommonNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0B31E5FBAEA0043070B /* LeeCommonNavVC.m */; };
+		B690F0B71E5FCA420043070B /* LeeMovPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0B61E5FCA420043070B /* LeeMovPlayerVC.m */; };
+		B690F0BB1E5FDF7D0043070B /* LeePlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B690F0BA1E5FDF7D0043070B /* LeePlayer.bundle */; };
+		B690F0C01E5FE76E0043070B /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0BD1E5FE76E0043070B /* ASValuePopUpView.m */; };
+		B690F0C11E5FE76E0043070B /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0BF1E5FE76E0043070B /* ASValueTrackingSlider.m */; };
+		B690F0C41E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0C31E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.m */; };
+		B690F0C71E5FF7490043070B /* LeeThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B690F0C61E5FF7490043070B /* LeeThirdVC.m */; };
+		B6AC6F6A1E603B8A004298F4 /* UIButton+largeArera.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC6F691E603B8A004298F4 /* UIButton+largeArera.m */; };
+		B6B9E51D1E5ED49C00466D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E51C1E5ED49C00466D94 /* main.m */; };
+		B6B9E5201E5ED49C00466D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E51F1E5ED49C00466D94 /* AppDelegate.m */; };
+		B6B9E5261E5ED49C00466D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B9E5241E5ED49C00466D94 /* Main.storyboard */; };
+		B6B9E5281E5ED49C00466D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B9E5271E5ED49C00466D94 /* Assets.xcassets */; };
+		B6B9E52B1E5ED49C00466D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B9E5291E5ED49C00466D94 /* LaunchScreen.storyboard */; };
+		B6B9E5361E5ED49C00466D94 /* LeeTestPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E5351E5ED49C00466D94 /* LeeTestPlayerTests.m */; };
+		B6B9E5411E5ED49C00466D94 /* LeeTestPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E5401E5ED49C00466D94 /* LeeTestPlayerUITests.m */; };
+		B6B9E5501E5EDABA00466D94 /* LeePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E54F1E5EDABA00466D94 /* LeePlayer.m */; };
+		B6B9E5531E5F105100466D94 /* LeePlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9E5521E5F105100466D94 /* LeePlayerControlView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B9E5321E5ED49C00466D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B9E5101E5ED49B00466D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B9E5171E5ED49C00466D94;
+			remoteInfo = LeeTestPlayer;
+		};
+		B6B9E53D1E5ED49C00466D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B9E5101E5ED49B00466D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B9E5171E5ED49C00466D94;
+			remoteInfo = LeeTestPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1845B3107E3121ED95858EF3 /* libPods-LeeTestPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeeTestPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656BD4F0DB5D6C26C10FD6D /* Pods-LeeTestPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTestPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeeTestPlayer/Pods-LeeTestPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		B690F0A31E5FB9FC0043070B /* LeeBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeBaseNavigationController.h; sourceTree = "<group>"; };
+		B690F0A41E5FB9FC0043070B /* LeeBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeBaseNavigationController.m; sourceTree = "<group>"; };
+		B690F0A61E5FBA4F0043070B /* LeeBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeBaseTabBarController.h; sourceTree = "<group>"; };
+		B690F0A71E5FBA4F0043070B /* LeeBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeBaseTabBarController.m; sourceTree = "<group>"; };
+		B690F0A91E5FBAA50043070B /* LeeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeBaseViewController.h; sourceTree = "<group>"; };
+		B690F0AA1E5FBAA50043070B /* LeeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeBaseViewController.m; sourceTree = "<group>"; };
+		B690F0AC1E5FBABF0043070B /* LeeFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeFirstVC.h; sourceTree = "<group>"; };
+		B690F0AD1E5FBABF0043070B /* LeeFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeFirstVC.m; sourceTree = "<group>"; };
+		B690F0AF1E5FBACB0043070B /* LeeSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeSecondVC.h; sourceTree = "<group>"; };
+		B690F0B01E5FBACB0043070B /* LeeSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeSecondVC.m; sourceTree = "<group>"; };
+		B690F0B21E5FBAEA0043070B /* LeeCommonNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeCommonNavVC.h; sourceTree = "<group>"; };
+		B690F0B31E5FBAEA0043070B /* LeeCommonNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeCommonNavVC.m; sourceTree = "<group>"; };
+		B690F0B51E5FCA420043070B /* LeeMovPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeMovPlayerVC.h; sourceTree = "<group>"; };
+		B690F0B61E5FCA420043070B /* LeeMovPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeMovPlayerVC.m; sourceTree = "<group>"; };
+		B690F0BA1E5FDF7D0043070B /* LeePlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LeePlayer.bundle; sourceTree = "<group>"; };
+		B690F0BC1E5FE76E0043070B /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		B690F0BD1E5FE76E0043070B /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		B690F0BE1E5FE76E0043070B /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		B690F0BF1E5FE76E0043070B /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		B690F0C21E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		B690F0C31E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		B690F0C51E5FF7490043070B /* LeeThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeThirdVC.h; sourceTree = "<group>"; };
+		B690F0C61E5FF7490043070B /* LeeThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeThirdVC.m; sourceTree = "<group>"; };
+		B690F0C81E60176D0043070B /* LeeCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeCommonHeader.h; sourceTree = "<group>"; };
+		B6AC6F681E603B8A004298F4 /* UIButton+largeArera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+largeArera.h"; sourceTree = "<group>"; };
+		B6AC6F691E603B8A004298F4 /* UIButton+largeArera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+largeArera.m"; sourceTree = "<group>"; };
+		B6B9E5181E5ED49C00466D94 /* LeeTestPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeTestPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B9E51C1E5ED49C00466D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6B9E51E1E5ED49C00466D94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B9E51F1E5ED49C00466D94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B9E5251E5ED49C00466D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B9E5271E5ED49C00466D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B9E52A1E5ED49C00466D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B9E52C1E5ED49C00466D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B9E5311E5ED49C00466D94 /* LeeTestPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeTestPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B9E5351E5ED49C00466D94 /* LeeTestPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeTestPlayerTests.m; sourceTree = "<group>"; };
+		B6B9E5371E5ED49C00466D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B9E53C1E5ED49C00466D94 /* LeeTestPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeTestPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B9E5401E5ED49C00466D94 /* LeeTestPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeTestPlayerUITests.m; sourceTree = "<group>"; };
+		B6B9E5421E5ED49C00466D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B9E54E1E5EDABA00466D94 /* LeePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeePlayer.h; sourceTree = "<group>"; };
+		B6B9E54F1E5EDABA00466D94 /* LeePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeePlayer.m; sourceTree = "<group>"; };
+		B6B9E5511E5F105100466D94 /* LeePlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeePlayerControlView.h; sourceTree = "<group>"; };
+		B6B9E5521E5F105100466D94 /* LeePlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeePlayerControlView.m; sourceTree = "<group>"; };
+		EA677AD3E9E6D8FAF71CF2E2 /* Pods-LeeTestPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTestPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeeTestPlayer/Pods-LeeTestPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B9E5151E5ED49C00466D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99517F97F79858AB50D3B139 /* libPods-LeeTestPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E52E1E5ED49C00466D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E5391E5ED49C00466D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FFD73781FA0842BA57660A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1845B3107E3121ED95858EF3 /* libPods-LeeTestPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4986CDEBFEA75CCD2CB1FD6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5656BD4F0DB5D6C26C10FD6D /* Pods-LeeTestPlayer.debug.xcconfig */,
+				EA677AD3E9E6D8FAF71CF2E2 /* Pods-LeeTestPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6B9E50F1E5ED49B00466D94 = {
+			isa = PBXGroup;
+			children = (
+				B690F0BA1E5FDF7D0043070B /* LeePlayer.bundle */,
+				B6B9E51A1E5ED49C00466D94 /* LeeTestPlayer */,
+				B6B9E5341E5ED49C00466D94 /* LeeTestPlayerTests */,
+				B6B9E53F1E5ED49C00466D94 /* LeeTestPlayerUITests */,
+				B6B9E5191E5ED49C00466D94 /* Products */,
+				4986CDEBFEA75CCD2CB1FD6A /* Pods */,
+				21FFD73781FA0842BA57660A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B9E5191E5ED49C00466D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9E5181E5ED49C00466D94 /* LeeTestPlayer.app */,
+				B6B9E5311E5ED49C00466D94 /* LeeTestPlayerTests.xctest */,
+				B6B9E53C1E5ED49C00466D94 /* LeeTestPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B9E51A1E5ED49C00466D94 /* LeeTestPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9E51E1E5ED49C00466D94 /* AppDelegate.h */,
+				B6B9E51F1E5ED49C00466D94 /* AppDelegate.m */,
+				B690F0C21E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.h */,
+				B690F0C31E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.m */,
+				B690F0A31E5FB9FC0043070B /* LeeBaseNavigationController.h */,
+				B690F0A41E5FB9FC0043070B /* LeeBaseNavigationController.m */,
+				B690F0A61E5FBA4F0043070B /* LeeBaseTabBarController.h */,
+				B690F0A71E5FBA4F0043070B /* LeeBaseTabBarController.m */,
+				B690F0A91E5FBAA50043070B /* LeeBaseViewController.h */,
+				B690F0AA1E5FBAA50043070B /* LeeBaseViewController.m */,
+				B690F0AC1E5FBABF0043070B /* LeeFirstVC.h */,
+				B690F0AD1E5FBABF0043070B /* LeeFirstVC.m */,
+				B690F0B51E5FCA420043070B /* LeeMovPlayerVC.h */,
+				B690F0B61E5FCA420043070B /* LeeMovPlayerVC.m */,
+				B690F0C51E5FF7490043070B /* LeeThirdVC.h */,
+				B690F0C61E5FF7490043070B /* LeeThirdVC.m */,
+				B690F0AF1E5FBACB0043070B /* LeeSecondVC.h */,
+				B690F0B01E5FBACB0043070B /* LeeSecondVC.m */,
+				B690F0B21E5FBAEA0043070B /* LeeCommonNavVC.h */,
+				B690F0B31E5FBAEA0043070B /* LeeCommonNavVC.m */,
+				B6B9E54E1E5EDABA00466D94 /* LeePlayer.h */,
+				B6B9E54F1E5EDABA00466D94 /* LeePlayer.m */,
+				B6AC6F681E603B8A004298F4 /* UIButton+largeArera.h */,
+				B6AC6F691E603B8A004298F4 /* UIButton+largeArera.m */,
+				B6B9E5511E5F105100466D94 /* LeePlayerControlView.h */,
+				B6B9E5521E5F105100466D94 /* LeePlayerControlView.m */,
+				B690F0BC1E5FE76E0043070B /* ASValuePopUpView.h */,
+				B690F0BD1E5FE76E0043070B /* ASValuePopUpView.m */,
+				B690F0BE1E5FE76E0043070B /* ASValueTrackingSlider.h */,
+				B690F0BF1E5FE76E0043070B /* ASValueTrackingSlider.m */,
+				B690F0C81E60176D0043070B /* LeeCommonHeader.h */,
+				B6B9E5241E5ED49C00466D94 /* Main.storyboard */,
+				B6B9E5271E5ED49C00466D94 /* Assets.xcassets */,
+				B6B9E5291E5ED49C00466D94 /* LaunchScreen.storyboard */,
+				B6B9E52C1E5ED49C00466D94 /* Info.plist */,
+				B6B9E51B1E5ED49C00466D94 /* Supporting Files */,
+			);
+			path = LeeTestPlayer;
+			sourceTree = "<group>";
+		};
+		B6B9E51B1E5ED49C00466D94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9E51C1E5ED49C00466D94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B9E5341E5ED49C00466D94 /* LeeTestPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9E5351E5ED49C00466D94 /* LeeTestPlayerTests.m */,
+				B6B9E5371E5ED49C00466D94 /* Info.plist */,
+			);
+			path = LeeTestPlayerTests;
+			sourceTree = "<group>";
+		};
+		B6B9E53F1E5ED49C00466D94 /* LeeTestPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9E5401E5ED49C00466D94 /* LeeTestPlayerUITests.m */,
+				B6B9E5421E5ED49C00466D94 /* Info.plist */,
+			);
+			path = LeeTestPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B9E5171E5ED49C00466D94 /* LeeTestPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B9E5451E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayer" */;
+			buildPhases = (
+				95C6CB4732964651EE8726D8 /* 📦 Check Pods Manifest.lock */,
+				B6B9E5141E5ED49C00466D94 /* Sources */,
+				B6B9E5151E5ED49C00466D94 /* Frameworks */,
+				B6B9E5161E5ED49C00466D94 /* Resources */,
+				2B369FE90727927C9A3F9803 /* 📦 Embed Pods Frameworks */,
+				1709B4774B1724F286D1D6B3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeTestPlayer;
+			productName = LeeTestPlayer;
+			productReference = B6B9E5181E5ED49C00466D94 /* LeeTestPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B9E5301E5ED49C00466D94 /* LeeTestPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B9E5481E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayerTests" */;
+			buildPhases = (
+				B6B9E52D1E5ED49C00466D94 /* Sources */,
+				B6B9E52E1E5ED49C00466D94 /* Frameworks */,
+				B6B9E52F1E5ED49C00466D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B9E5331E5ED49C00466D94 /* PBXTargetDependency */,
+			);
+			name = LeeTestPlayerTests;
+			productName = LeeTestPlayerTests;
+			productReference = B6B9E5311E5ED49C00466D94 /* LeeTestPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6B9E53B1E5ED49C00466D94 /* LeeTestPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B9E54B1E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayerUITests" */;
+			buildPhases = (
+				B6B9E5381E5ED49C00466D94 /* Sources */,
+				B6B9E5391E5ED49C00466D94 /* Frameworks */,
+				B6B9E53A1E5ED49C00466D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B9E53E1E5ED49C00466D94 /* PBXTargetDependency */,
+			);
+			name = LeeTestPlayerUITests;
+			productName = LeeTestPlayerUITests;
+			productReference = B6B9E53C1E5ED49C00466D94 /* LeeTestPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B9E5101E5ED49B00466D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LiYang;
+				TargetAttributes = {
+					B6B9E5171E5ED49C00466D94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q9SZGQAPK6;
+						ProvisioningStyle = Automatic;
+					};
+					B6B9E5301E5ED49C00466D94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6B9E5171E5ED49C00466D94;
+					};
+					B6B9E53B1E5ED49C00466D94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6B9E5171E5ED49C00466D94;
+					};
+				};
+			};
+			buildConfigurationList = B6B9E5131E5ED49B00466D94 /* Build configuration list for PBXProject "LeeTestPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B9E50F1E5ED49B00466D94;
+			productRefGroup = B6B9E5191E5ED49C00466D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B9E5171E5ED49C00466D94 /* LeeTestPlayer */,
+				B6B9E5301E5ED49C00466D94 /* LeeTestPlayerTests */,
+				B6B9E53B1E5ED49C00466D94 /* LeeTestPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B9E5161E5ED49C00466D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B9E52B1E5ED49C00466D94 /* LaunchScreen.storyboard in Resources */,
+				B690F0BB1E5FDF7D0043070B /* LeePlayer.bundle in Resources */,
+				B6B9E5281E5ED49C00466D94 /* Assets.xcassets in Resources */,
+				B6B9E5261E5ED49C00466D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E52F1E5ED49C00466D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E53A1E5ED49C00466D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1709B4774B1724F286D1D6B3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeeTestPlayer/Pods-LeeTestPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B369FE90727927C9A3F9803 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeeTestPlayer/Pods-LeeTestPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C6CB4732964651EE8726D8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B9E5141E5ED49C00466D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690F0B11E5FBACB0043070B /* LeeSecondVC.m in Sources */,
+				B690F0B41E5FBAEA0043070B /* LeeCommonNavVC.m in Sources */,
+				B6B9E5501E5EDABA00466D94 /* LeePlayer.m in Sources */,
+				B690F0AB1E5FBAA50043070B /* LeeBaseViewController.m in Sources */,
+				B6B9E5531E5F105100466D94 /* LeePlayerControlView.m in Sources */,
+				B690F0C01E5FE76E0043070B /* ASValuePopUpView.m in Sources */,
+				B690F0C11E5FE76E0043070B /* ASValueTrackingSlider.m in Sources */,
+				B6B9E5201E5ED49C00466D94 /* AppDelegate.m in Sources */,
+				B690F0A81E5FBA4F0043070B /* LeeBaseTabBarController.m in Sources */,
+				B690F0AE1E5FBABF0043070B /* LeeFirstVC.m in Sources */,
+				B690F0C71E5FF7490043070B /* LeeThirdVC.m in Sources */,
+				B6AC6F6A1E603B8A004298F4 /* UIButton+largeArera.m in Sources */,
+				B690F0B71E5FCA420043070B /* LeeMovPlayerVC.m in Sources */,
+				B6B9E51D1E5ED49C00466D94 /* main.m in Sources */,
+				B690F0C41E5FF53D0043070B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				B690F0A51E5FB9FC0043070B /* LeeBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E52D1E5ED49C00466D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B9E5361E5ED49C00466D94 /* LeeTestPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9E5381E5ED49C00466D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B9E5411E5ED49C00466D94 /* LeeTestPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B9E5331E5ED49C00466D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B9E5171E5ED49C00466D94 /* LeeTestPlayer */;
+			targetProxy = B6B9E5321E5ED49C00466D94 /* PBXContainerItemProxy */;
+		};
+		B6B9E53E1E5ED49C00466D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B9E5171E5ED49C00466D94 /* LeeTestPlayer */;
+			targetProxy = B6B9E53D1E5ED49C00466D94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6B9E5241E5ED49C00466D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B9E5251E5ED49C00466D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B9E5291E5ED49C00466D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B9E52A1E5ED49C00466D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B9E5431E5ED49C00466D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6B9E5441E5ED49C00466D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B9E5461E5ED49C00466D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5656BD4F0DB5D6C26C10FD6D /* Pods-LeeTestPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
+				INFOPLIST_FILE = LeeTestPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		B6B9E5471E5ED49C00466D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA677AD3E9E6D8FAF71CF2E2 /* Pods-LeeTestPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
+				INFOPLIST_FILE = LeeTestPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		B6B9E5491E5ED49C00466D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeTestPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeTestPlayer.app/LeeTestPlayer";
+			};
+			name = Debug;
+		};
+		B6B9E54A1E5ED49C00466D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeTestPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeTestPlayer.app/LeeTestPlayer";
+			};
+			name = Release;
+		};
+		B6B9E54C1E5ED49C00466D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeTestPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeTestPlayer;
+			};
+			name = Debug;
+		};
+		B6B9E54D1E5ED49C00466D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeTestPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeTestPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeTestPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B9E5131E5ED49B00466D94 /* Build configuration list for PBXProject "LeeTestPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B9E5431E5ED49C00466D94 /* Debug */,
+				B6B9E5441E5ED49C00466D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B9E5451E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B9E5461E5ED49C00466D94 /* Debug */,
+				B6B9E5471E5ED49C00466D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B9E5481E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B9E5491E5ED49C00466D94 /* Debug */,
+				B6B9E54A1E5ED49C00466D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B9E54B1E5ED49C00466D94 /* Build configuration list for PBXNativeTarget "LeeTestPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B9E54C1E5ED49C00466D94 /* Debug */,
+				B6B9E54D1E5ED49C00466D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B9E5101E5ED49B00466D94 /* Project object */;
+}
